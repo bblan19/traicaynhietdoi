@@ -179,14 +179,13 @@ button:hover {
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-  /* Bỏ thay đổi flex-direction ở đây, giữ bố cục cho tất cả các màn hình */
+  /* Giữ bố cục giống nhau */
   .khung-san-pham {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
   }
 
-  /* Giữ kích thước sản phẩm không thay đổi */
   .san-pham {
     width: 260px;
   }
